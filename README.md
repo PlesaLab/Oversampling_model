@@ -75,7 +75,7 @@ E[coverage]=0.996523  Var=2.062565e-06
 - **Non‑uniformity (Gini)** is achieved via a lognormal representation tuned by bisection to match the specified Gini value.
 - **Coverage distribution** is approximated via a central‑limit‑theorem (CLT) form: 
 
-$ P(C_t \ge c) \approx 1 - \Phi\!\left(\frac{c - \mathbb{E}[C_t]}{\sqrt{\mathrm{Var}[C_t]}}\right) $
+$P(C_t \ge c) \approx 1 - \Phi\!\left(\frac{c - \mathbb{E}[C_t]}{\sqrt{\mathrm{Var}[C_t]}}\right)$
 
 where $𝐶_𝑡$ is the coverage fraction observed after sampling `t` molecules.
 
